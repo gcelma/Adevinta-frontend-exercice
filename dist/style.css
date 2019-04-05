@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+.Accordion {
+  -webkit-box-shadow: 0px 13px 23px -13px rgba(0, 0, 0, 0.5);
+  width: 420px;
+  margin-top: 200px; }
+
+.Accordion-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.Accordion-section-title {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 2;
+  font-weight: lighter;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 2px;
+  transition: all .2s ease-in; }
+
+.Accordion-section-title:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.65); }
+
+.Accordion-section-body {
+  padding: 1em;
+  display: none;
+  background: #fdfdfd;
+  color: #444;
+  margin: 2px 0px 0px 0px;
+  border-radius: 4px; }
+
+.item--open .Accordion-section-body {
+  display: flex; }
+
+body {
+  font-family: 'quicksand';
+  font-weight: lighter;
+  background: #5c81ca;
+  background: -moz-linear-gradient(left, #5c81ca 0%, #f98c70 100%);
+  background: -webkit-linear-gradient(left, #5c81ca 0%, #f98c70 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center; }
+

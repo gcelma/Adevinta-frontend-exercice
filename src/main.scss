@@ -1,0 +1,28 @@
+$content-background: #fdfdfd;
+$padding: 1em;
+$text-colour-light: #fefefe;
+$text-colour-dark: #444;
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import './components/Accordion/accordion';
+
+body {
+  font-family: 'quicksand';
+  font-weight: lighter;
+  background: rgba(92,129,202,1);
+  background: 
+    -moz-linear-gradient(
+      left, 
+      rgba(92,129,202,1) 0%, 
+      rgba(249,140,112,1) 100%
+  );
+  background:
+    -webkit-linear-gradient(
+        left, 
+        rgba(92,129,202,1) 0%, 
+        rgba(249,140,112,1) 100%
+  );
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
